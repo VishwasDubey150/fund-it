@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup"
+    android:background="#FAF0E4"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_baseline_arrow_back_ios_24"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:onClick="back">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="skip"
+            android:onClick="skip"
+            android:textSize="15dp"
+            android:fontFamily="@font/doppio_one"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="10dp">
+        </TextView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:text="SignUp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/doppio_one"
+        android:textColor="#0F1C63"
+        android:layout_marginTop="-30dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:hint="Username"
+        android:paddingLeft="30dp"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:background="@drawable/et_bg"
+        android:fontFamily="@font/doppio_one"
+        android:elevation="4dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="email id"
+        android:paddingLeft="30dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:background="@drawable/et_bg"
+        android:fontFamily="@font/doppio_one"
+        android:elevation="4dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Username"
+        android:paddingLeft="30dp"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:background="@drawable/et_bg"
+        android:fontFamily="@font/doppio_one"
+        android:elevation="4dp">
+    </EditText>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#FBB827"
+        android:layout_marginTop="80dp"
+        android:text="Create an account"
+        android:textAllCaps="false"
+        android:fontFamily="@font/doppio_one"
+        android:textColor="#0F1C63"
+        android:textSize="25dp">
+    </Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Already had an account?"
+        android:textColor="#0F1C63"
+        android:textSize="15dp"
+        android:fontFamily="@font/doppio_one"
+        android:onClick="login">
+    </TextView>
+
+    <View
+        android:layout_width="350dp"
+        android:layout_height="2dp"
+        android:background="#908F8F"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#FD3232"
+        android:layout_marginTop="30dp"
+        android:text="Signup with Google"
+        android:textAllCaps="false"
+        android:fontFamily="@font/doppio_one"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp">
+    </Button>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#448AFF"
+        android:layout_marginTop="10dp"
+        android:text="Signup with facebook"
+        android:textAllCaps="false"
+        android:fontFamily="@font/doppio_one"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp">
+    </Button>
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

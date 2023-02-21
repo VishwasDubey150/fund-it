@@ -7,15 +7,92 @@
     tools:context=".MainActivity"
     android:background="#FAF0E4">
 
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/ani"
+        android:layout_width="460dp"
+        android:layout_height="348dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/animation" />
+
     <TextView
-        android:layout_width="198dp"
-        android:layout_height="79dp"
-        android:text="Welcome"
-        android:textSize="30dp"
+        android:id="@+id/textView"
+        android:layout_width="319dp"
+        android:layout_height="72dp"
+        android:fontFamily="@font/doppio_one"
+        android:text="Hey! Welcome"
         android:textAlignment="center"
+        android:textColor="#0F1C63"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.488" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="219dp"
+        android:layout_height="78dp"
+        android:fontFamily="@font/doppio_one"
+        android:text="We will help you to donate and raise funds through of application."
+        android:textAlignment="center"
+        android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.574" />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="313dp"
+        android:layout_height="66dp"
+        android:backgroundTint="#FBB827"
+        android:fontFamily="@font/doppio_one"
+        android:onClick="signup"
+        android:text="Get Started"
+        android:textAllCaps="false"
+        android:textColor="#0F1C63"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.771" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="313dp"
+        android:layout_height="66dp"
+        android:backgroundTint="@color/white"
+        android:text="Already have an account"
+        android:textAllCaps="false"
+        android:textColor="#0F1C63"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.874" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="215dp"
+        android:layout_height="33dp"
+        android:text="All Rights are reserved"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.978" />
 </androidx.constraintlayout.widget.ConstraintLayout>

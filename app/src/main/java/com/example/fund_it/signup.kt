@@ -5,15 +5,21 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class MainActivity : AppCompatActivity() {
+class signup : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_signup)
         supportActionBar?.hide()
     }
-
-    fun signup(view: View) {
-        val intent=Intent(this@MainActivity,signup::class.java)
+    fun login(view: View) {
+        val intent=Intent(this@signup,login::class.java)
         startActivity(intent)
     }
+
+    fun back(view: View) {
+        val intent=Intent(this@signup,MainActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun skip(view: View) {}
 }
