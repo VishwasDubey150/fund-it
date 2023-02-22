@@ -76,6 +76,7 @@
         android:text="Already have an account"
         android:textAllCaps="false"
         android:textColor="#0F1C63"
+        android:onClick="loginn"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

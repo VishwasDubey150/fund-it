@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 
 class signup : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,4 +23,7 @@ class signup : AppCompatActivity() {
     }
 
     fun skip(view: View) {}
+    fun create(view: View) {
+        Toast.makeText(this,"App is in progress",Toast.LENGTH_SHORT).show()
+    }
 }
