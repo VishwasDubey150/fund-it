@@ -66,5 +66,9 @@ class login : baseActivity() {
         }
     }
 
+    fun forgot_password(view: View) {
+        startActivity(Intent(this@login,forgot_password::class.java))
+    }
 
+    fun back(view: View) {}
 }
