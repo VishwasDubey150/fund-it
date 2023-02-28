@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "12402938511",
+    "project_id": "fund-it-9ef11",
+    "storage_bucket": "fund-it-9ef11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12402938511:android:8b559750024e4911bfd6fa",
+        "android_client_info": {
+          "package_name": "com.example.fund_it"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12402938511-3osk6bfmh04sp107unfvnbmeufu7laer.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fund_it",
+            "certificate_hash": "3c7e9099f1a9e194d303779875851d9fa6e93e96"
+          }
+        },
+        {
+          "client_id": "12402938511-bvsfkj9oan4ah7p4c0rglhasim55jeop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-OG6sEbnJ9dQQ7AoTNywi7gJam_Egrqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12402938511-bvsfkj9oan4ah7p4c0rglhasim55jeop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

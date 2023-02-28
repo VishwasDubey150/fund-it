@@ -6,17 +6,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".login"
-    android:background="#FAF0E4"
+    android:background="#F6E3CC"
     android:orientation="vertical">
 
     <androidx.cardview.widget.CardView
         android:layout_gravity="center"
-        android:layout_width="300dp"
+        android:layout_width="350dp"
         android:layout_height="450dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="150dp"
         app:cardCornerRadius="30dp"
         app:cardElevation="50dp"
-        android:backgroundTint="#ffffff">
+        android:backgroundTint="#FAF6F6">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -35,16 +35,17 @@
             </TextView>
 
             <EditText
+                android:id="@+id/email"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="30dp"
-                android:hint="email id"
+                android:hint="email"
                 android:paddingRight="10dp"
-                android:paddingTop="10dp"
-                android:paddingBottom="10dp"
-                android:paddingLeft="20dp"
-                android:textSize="23dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="10dp"
+                android:textSize="20dp"
                 android:background="@drawable/let_bg"
                 android:textColor="@color/black"
                 android:fontFamily="@font/doppio_one"
@@ -52,16 +53,17 @@
             </EditText>
 
             <EditText
+                android:id="@+id/password"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="30dp"
                 android:hint="Password"
                 android:elevation="5dp"
-                android:textSize="23dp"
-                android:paddingLeft="20dp"
-                android:paddingBottom="10dp"
-                android:paddingTop="7dp"
+                android:textSize="20dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
                 android:background="@drawable/let_bg"
                 android:inputType="textPassword"
                 android:textColor="@color/black"
@@ -69,6 +71,7 @@
             </EditText>
 
             <TextView
+                android:id="@+id/forgotpassword"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Forgot Password?"
@@ -104,34 +107,5 @@
             </TextView>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
-
-
-    <Button
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:backgroundTint="#FD3232"
-        android:layout_marginTop="50dp"
-        android:text="Login with Google"
-        android:textAllCaps="false"
-        android:fontFamily="@font/doppio_one"
-        android:textColor="#FFFFFF"
-        android:textSize="15dp">
-    </Button>
-
-    <Button
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:backgroundTint="#448AFF"
-        android:layout_marginTop="10dp"
-        android:text="Login with facebook"
-        android:textAllCaps="false"
-        android:fontFamily="@font/doppio_one"
-        android:textColor="#FFFFFF"
-        android:textSize="15dp">
-    </Button>
-
-
 
 </androidx.appcompat.widget.LinearLayoutCompat>

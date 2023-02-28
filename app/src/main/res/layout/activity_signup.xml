@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".signup"
-    android:background="#FAF0E4"
+    android:background="#F6E3CC"
     android:orientation="vertical">
 
     <LinearLayout
@@ -47,35 +47,67 @@
     </TextView>
 
     <EditText
-        android:id="@+id/username"
+        android:id="@+id/fname"
         android:layout_width="300dp"
+        android:textSize="20dp"
         android:layout_height="70dp"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
-        android:hint="Username"
-        android:paddingLeft="30dp"
-        android:textSize="30dp"
+        android:hint="First name"
+        android:paddingLeft="18dp"
         android:textColor="@color/black"
         android:background="@drawable/et_bg"
         android:fontFamily="@font/doppio_one"
-        android:elevation="4dp">
+        android:elevation="14dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/lname"
+        android:layout_width="300dp"
+        android:textSize="20dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="last name"
+        android:paddingLeft="18dp"
+        android:textColor="@color/black"
+        android:background="@drawable/et_bg"
+        android:fontFamily="@font/doppio_one"
+        android:elevation="14dp">
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:hint="Contact no."
+        android:paddingLeft="18dp"
+        android:inputType="phone"
+        android:textColor="@color/black"
+        android:background="@drawable/et_bg"
+        android:fontFamily="@font/doppio_one"
+        android:elevation="14dp">
     </EditText>
 
     <EditText
         android:id="@+id/email"
         android:layout_width="300dp"
-        android:layout_height="wrap_content"
+        android:layout_height="70dp"
         android:layout_gravity="center"
+        android:textSize="18dp"
         android:layout_marginTop="20dp"
         android:hint="email id"
-        android:paddingLeft="30dp"
+        android:paddingLeft="18dp"
         android:paddingTop="15dp"
         android:paddingBottom="15dp"
-        android:textSize="30dp"
         android:textColor="@color/black"
         android:background="@drawable/et_bg"
         android:fontFamily="@font/doppio_one"
-        android:elevation="4dp">
+        android:elevation="14dp">
     </EditText>
 
     <EditText
@@ -83,22 +115,26 @@
         android:layout_width="300dp"
         android:layout_height="70dp"
         android:layout_gravity="center"
+        android:textSize="20dp"
         android:layout_marginTop="20dp"
-        android:hint="Password"
-        android:paddingLeft="30dp"
-        android:textSize="30dp"
+        android:hint="password"
+        android:paddingLeft="18dp"
+        android:inputType="textPassword"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
         android:textColor="@color/black"
         android:background="@drawable/et_bg"
         android:fontFamily="@font/doppio_one"
-        android:elevation="4dp">
+        android:elevation="14dp">
     </EditText>
+
 
     <Button
         android:layout_width="300dp"
         android:layout_height="70dp"
         android:layout_gravity="center"
         android:backgroundTint="#FBB827"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="50dp"
         android:text="Create an account"
         android:textAllCaps="false"
         android:fontFamily="@font/doppio_one"
@@ -122,39 +158,9 @@
     <View
         android:layout_width="350dp"
         android:layout_height="2dp"
-        android:background="#908F8F"
+        android:background="#9A9999"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"/>
-
-
-
-    <Button
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:backgroundTint="#FD3232"
-        android:layout_marginTop="30dp"
-        android:text="Signup with Google"
-        android:textAllCaps="false"
-        android:fontFamily="@font/doppio_one"
-        android:textColor="#FFFFFF"
-        android:textSize="15dp">
-    </Button>
-
-    <Button
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:backgroundTint="#448AFF"
-        android:layout_marginTop="10dp"
-        android:text="Signup with facebook"
-        android:textAllCaps="false"
-        android:fontFamily="@font/doppio_one"
-        android:textColor="#FFFFFF"
-        android:textSize="15dp">
-    </Button>
-
-
 
 
 </androidx.appcompat.widget.LinearLayoutCompat>
