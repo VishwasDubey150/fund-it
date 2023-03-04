@@ -3,6 +3,7 @@ package com.example.fund_it
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.DropBoxManager.Entry
 import android.text.TextUtils
 import android.view.View
 import android.widget.Toast
@@ -70,5 +71,7 @@ class login : baseActivity() {
         startActivity(Intent(this@login,forgot_password::class.java))
     }
 
-    fun back(view: View) {}
+    fun back(view: View) {
+        startActivity(Intent(this@login,MainActivity::class.java))
+    }
 }
