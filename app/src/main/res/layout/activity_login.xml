@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".login"
-    android:background="#F6E3CC"
+    android:background="#F0EFEF"
     android:orientation="vertical">
 
     <ImageView
@@ -27,7 +27,7 @@
         android:layout_marginTop="130dp"
         app:cardCornerRadius="30dp"
         app:cardElevation="50dp"
-        android:backgroundTint="#FAF6F6">
+        android:backgroundTint="#FFFFFF">
 
         <LinearLayout
             android:layout_width="match_parent"
