@@ -41,7 +41,7 @@ class login : baseActivity() {
                     if (task.isSuccessful) {
                         hidePB()
                         Toast.makeText(this,"Logging in!!",Toast.LENGTH_SHORT).show()
-                        startActivity(Intent(this@login,Dashboard::class.java))
+                        startActivity(Intent(this@login,profile_page::class.java))
                     } else {
                         hidePB()
                         showErrorSnackBar(task.exception!!.message.toString(), true)
