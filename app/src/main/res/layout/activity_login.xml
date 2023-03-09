@@ -42,7 +42,7 @@
                 android:textColor="#0F1C63"
                 android:textSize="50dp"
                 android:layout_gravity="center"
-                android:fontFamily="@font/doppio_one">
+                android:fontFamily="sans-serif-black">
             </TextView>
 
             <EditText
@@ -59,7 +59,7 @@
                 android:textSize="15dp"
                 android:background="@drawable/let_bg"
                 android:textColor="@color/black"
-                android:fontFamily="@font/doppio_one"
+                android:fontFamily="sans-serif-black"
                 android:elevation="5dp">
             </EditText>
 
@@ -78,7 +78,7 @@
                 android:background="@drawable/let_bg"
                 android:inputType="textPassword"
                 android:textColor="@color/black"
-                android:fontFamily="@font/doppio_one">
+                android:fontFamily="sans-serif-black">
             </EditText>
 
             <TextView
@@ -89,22 +89,23 @@
                 android:layout_gravity="right"
                 android:onClick="forgot_password"
                 android:layout_marginTop="10dp"
-                android:fontFamily="@font/doppio_one"
+                android:fontFamily="sans-serif-black"
                 android:layout_marginRight="15dp">
             </TextView>
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="250dp"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
-                android:backgroundTint="#0F1C63"
+                android:background="@drawable/btn_bg"
                 android:layout_marginTop="30dp"
                 android:text="Log in"
+                android:textColor="@color/white"
                 android:fontFamily="@font/doppio_one"
                 android:textAllCaps="false"
                 android:textSize="23dp"
                 android:onClick="loginb">
-            </Button>
+            </androidx.appcompat.widget.AppCompatButton>
 
             <TextView
                 android:layout_width="wrap_content"

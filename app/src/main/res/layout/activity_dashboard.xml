@@ -13,25 +13,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Welcome"
-        android:fontFamily="@font/doppio_one"
+        android:fontFamily="sans-serif-black"
         android:layout_gravity="center"
         android:layout_marginTop="200dp"
         android:textSize="60dp">
     </TextView>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/teal_200"
+        android:background="@drawable/btn_bg"
         android:textSize="30dp"
         android:text="Log out"
-        android:padding="10dp"
-        android:fontFamily="@font/doppio_one"
+        android:padding="20dp"
+        android:fontFamily="sans-serif-black"
         android:textAllCaps="false"
         android:layout_gravity="center"
         android:layout_marginTop="190dp"
         android:onClick="logout">
-    </Button>
+    </androidx.appcompat.widget.AppCompatButton>
 
 
 

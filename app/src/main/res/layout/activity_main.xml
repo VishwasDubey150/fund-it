@@ -25,7 +25,7 @@
         android:id="@+id/textView"
         android:layout_width="319dp"
         android:layout_height="72dp"
-        android:fontFamily="@font/doppio_one"
+        android:fontFamily="sans-serif-black"
         android:text="Hey! Welcome"
         android:textAlignment="center"
         android:textColor="#0F1C63"
@@ -41,7 +41,7 @@
         android:id="@+id/textView2"
         android:layout_width="219dp"
         android:layout_height="78dp"
-        android:fontFamily="@font/doppio_one"
+        android:fontFamily="sans-serif-black"
         android:text="We will help you to donate and raise funds through of application."
         android:textAlignment="center"
         android:textSize="15dp"
@@ -51,38 +51,39 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.574" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button"
         android:layout_width="313dp"
         android:layout_height="66dp"
-        android:backgroundTint="#FBB827"
-        android:fontFamily="@font/doppio_one"
+        android:background="@drawable/already_bg"
+        android:fontFamily="sans-serif-black"
+        android:onClick="loginn"
+        android:text="Already have account"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textColor="#0F1C63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.893" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/started"
+        android:layout_width="313dp"
+        android:layout_height="66dp"
+        android:background="@drawable/btn_bg"
+        android:fontFamily="sans-serif-black"
         android:onClick="signup"
         android:text="Get Started"
         android:textAllCaps="false"
-        android:textColor="#0F1C63"
+        android:textColor="@color/white"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.771" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="313dp"
-        android:layout_height="66dp"
-        android:backgroundTint="@color/white"
-        android:text="Already have an account"
-        android:textAllCaps="false"
-        android:textColor="#0F1C63"
-        android:onClick="loginn"
-        android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.874" />
 
     <TextView
         android:id="@+id/textView3"
