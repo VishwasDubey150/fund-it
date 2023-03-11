@@ -9,30 +9,23 @@
     android:orientation="vertical"
     android:background="#F0EFEF">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Welcome"
-        android:fontFamily="sans-serif-black"
-        android:layout_gravity="center"
-        android:layout_marginTop="200dp"
-        android:textSize="60dp">
-    </TextView>
-
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/btn_bg"
-        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
         android:text="Log out"
-        android:padding="20dp"
+        android:textColor="@color/white"
         android:fontFamily="sans-serif-black"
         android:textAllCaps="false"
-        android:layout_gravity="center"
-        android:layout_marginTop="190dp"
-        android:onClick="logout">
+        android:onClick="logout"
+        android:background="@drawable/btn_bg">
     </androidx.appcompat.widget.AppCompatButton>
 
 
-
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="20dp"
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </androidx.appcompat.widget.LinearLayoutCompat>

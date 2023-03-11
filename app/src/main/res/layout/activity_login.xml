@@ -101,7 +101,7 @@
                 android:layout_marginTop="30dp"
                 android:text="Log in"
                 android:textColor="@color/white"
-                android:fontFamily="@font/doppio_one"
+                android:fontFamily="sans-serif-black"
                 android:textAllCaps="false"
                 android:textSize="23dp"
                 android:onClick="loginb">
@@ -115,7 +115,7 @@
                 android:text="Don't have an account?"
                 android:textColor="#0F1C63"
                 android:textSize="15dp"
-                android:fontFamily="@font/doppio_one"
+                android:fontFamily="sans-serif-black"
                 android:onClick="signup">
             </TextView>
         </LinearLayout>
